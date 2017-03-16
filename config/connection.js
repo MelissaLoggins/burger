@@ -11,5 +11,8 @@ if (process.envJAWSDB_URL) {
 	password:'',
 	database:'burgers_db'
 });
+};
 connection.connect();
 module.exports = connection;
+
+
